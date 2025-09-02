@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+# Bitcot Contact Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## Available Scripts
+A **SPA (Single Page Application)** built with React to manage contacts. It offers full CRUD (Create, Read, Update, Delete) operations, dynamic search, modal dialogs, and supports both light and dark modes with theme persistence. This project was completed as part of Bitcot's fresher machine test to demonstrate proficiency in React, modular component design, and deployment readiness.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Check out the live application deployed here:  
+[https://bitcot-contact-app.vercel.app/](https://bitcot-contact-app.vercel.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Add, Edit, View, Delete Contacts:** Manage contacts directly with inline editing and modal dialogs.
+- **Dynamic Search:** Instantly filter contacts by name or phone number.
+- **Modal Dialogs:** Clean, focused forms and contact detail views.
+- **Light & Dark Mode:** Toggle themes with persistence across sessions.
+- **Responsive Design:** Optimized for both mobile and desktop devices.
+- **Real-Time Validation:** Input validation with instant error feedback.
+- **Reusable Components & Hooks:** Modular code for maintainability and scalability.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Technology    | Description                         |
+| ------------- | ----------------------------------- |
+| React         | Front-end UI library                |
+| UUID          | Unique identifier generation        |
+| CSS Variables | Theming and custom styling          |
+| Vercel/Netlify| Hosting and continuous deployment   |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📁 Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+bitcot-contact-app/
+├── public/                # Static files (index.html, favicon, etc.)
+├── src/
+│   ├── components/        # Reusable UI components (Modal, ContactList, SearchBar, etc.)
+│   ├── context/           # Theme context for light/dark mode
+│   ├── utils/             # Utility functions and validations
+│   ├── App.js             # Root component managing app state
+│   ├── index.js           # React app entry point
+│   └── index.css          # Global styling and CSS variables
+├── package.json           # Project metadata, dependencies, scripts
+└── README.md              # Project documentation
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🎯 Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
 
-## Learn More
+- **Node.js** (v14 or higher)
+- **npm** or **yarn** package manager
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Setup Instructions
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+git clone https://github.com/kavyaa25/Bitcot-Contact-App.git
+cd Bitcot-Contact-App
+npm install            # or yarn install
+npm start              # or yarn start
+```
 
-### Code Splitting
+Visit [http://localhost:3000](http://localhost:3000) in your browser to view the app locally.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📦 Building and Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To create an optimized production build:
 
-### Making a Progressive Web App
+```bash
+npm run build          # or yarn build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This will generate a `build` folder ready for static hosting.  
+You can deploy it via **Vercel**, **Netlify**, or any static hosting service.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🤝 Contributing
 
-### Deployment
+Contributions, issues, and feature requests are welcome!  
+Feel free to check the [issues page](https://github.com/kavyaa25/Bitcot-Contact-App/issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 📬 Contact
+
+**Kavyaa**  
+Email: your-email@example.com  
+GitHub: [kavyaa25](https://github.com/kavyaa25)
+
+---
+
+Thank you for visiting! ⭐  
+*If you like this project, please consider leaving a star.*
