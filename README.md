@@ -43,8 +43,6 @@ bitcot-contact-app/
 ├── public/                # Static files (index.html, favicon, etc.)
 ├── src/
 │   ├── components/        # Reusable UI components (Modal, ContactList, SearchBar, etc.)
-│   ├── context/           # Theme context for light/dark mode
-│   ├── utils/             # Utility functions and validations
 │   ├── App.js             # Root component managing app state
 │   ├── index.js           # React app entry point
 │   └── index.css          # Global styling and CSS variables
